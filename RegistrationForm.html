@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+	<!-- ask the user for name -->
+	<div>
+		<label for = "first name">First Name:</label>
+		<input id = "first name" name = "first name" type="text" placeholder = "e.g: Kaicheng" required>
+		<label for = "last name">Last Name:</label>
+		<input id = "last name" name = "last name" type = "text" placeholder = "e.g: Hu" required>
+	</div>
+	<!-- ask the user for sex -->
+	<div>
+		<label for = "male">Male</label>
+		<input id = "male" type="radio" name = "SEX" value = "Male">
+		<label for = "female">Female</label>
+		<input id = "female" type="radio" name="SEX" value = "Female">
+		<label for = "other">Other</label>
+		<input id = "other" type="radio" name="SEX" value = "Other">
+
+
+	</div>
+	<!-- ask the user for email and password -->
+	<div>
+		<label>
+			Email:
+			<input name = "email" type="email" placeholder = "your email" required>
+		</label>
+		<label>
+			Password:
+			<input name = "password" type="password" placeholder = "password" pattern = ".{5,10}" required title = "Password must be between 5 to 10 characters">
+		</label>
+	</div>
+	
+	<!-- ask the user for birthday -->
+	<div>
+		<label>
+			<select name = "month">
+				<option>Month</option>
+				<option>Jan</option>
+				<option>Feb</option>
+				<option>Mar</option>
+			</select>
+			<select name = "day">
+				<option>Day</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>
+			<select name = "year">
+				<option>Year</option>
+				<option>1996</option>
+				<option>1995</option>
+				<option>1994</option>
+			</select>
+		</label>
+		
+	</div>
+	<div>
+		<label for = "agree">I agree to the terms and conditions</label>
+		<input id = "agree" name = "agree" type="checkbox">
+	</div>
+	<button>Submit</button>
+</form>
+</body>
+</html>
