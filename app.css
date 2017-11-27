@@ -1,0 +1,17 @@
+h1 {
+	color: rgb(0,0,0);
+	border: 3px white dashed;
+}
+h2 {
+	color: white;
+	background: rgb(0,0,0);
+}
+li {
+	color: lightcyan;
+
+}
+body {
+	background : url(https://static.pexels.com/photos/132205/pexels-photo-132205.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
