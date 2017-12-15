@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Grid System</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<style type="text/css">
+	.pink {
+		background:pink;
+		border:1px solid purple;
+	}
+	.orange {
+		background:orange;
+		border:1px dashed blue;
+		height:50px;
+	}
+	</style>
+</head>
+<body>
+<div class ="container">
+	<div class="row">
+		<!-- total: 12 units! -->
+		<!-- Don't have to repetively set up the larger size,
+		the smaller size will automatically set the large ones -->
+		<!-- write nested grids: make sure write "row" inside the specific col -->
+		<div class="col-md-3 col-sm-6 pink">
+			<div class="row">
+			<div class="col-lg-6 orange">Tour Date!!</div>
+			<div class="col-lg-6 orange">Tour Date!!</div>
+			</div>
+		</div>
+		<div class="col-md-3 col-sm-6 pink">Tour Date!!</div>
+		<div class="col-md-3 col-sm-6 pink">Tour Date!!</div>
+		<div class="col-md-3 col-sm-6 pink">
+			<div class="row">
+				<div class="col-md-3 orange">Tour Date!!</div>
+				<div class="col-md-3 orange">Tour Date!!</div>
+				<div class="col-md-3 orange">Tour Date!!</div>
+				<div class="col-md-3 orange">Tour Date!!</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
