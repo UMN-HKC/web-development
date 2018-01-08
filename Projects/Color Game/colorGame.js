@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// This is my Color Game
-
-=======
->>>>>>> c0c98eb8937657ae570ba560673f05b03f4f4d43
+// this is Color Game
 var numSquares = 6;
 var colors = [];
 var pickedColor;
