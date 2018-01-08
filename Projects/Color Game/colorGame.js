@@ -1,4 +1,4 @@
-// this is Color Game
+// this is an interesting Color Game 
 var numSquares = 6;
 var colors = [];
 var pickedColor;
