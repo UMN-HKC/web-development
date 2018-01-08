@@ -1,3 +1,5 @@
+// This is my Color Game
+
 var numSquares = 6;
 var colors = [];
 var pickedColor;
